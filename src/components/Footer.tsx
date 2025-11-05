@@ -17,9 +17,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Logo & Description */}
           <div>
-            <h3 className="text-2xl font-heading font-bold text-gradient mb-4">
-              TG Technology
-            </h3>
+            <img 
+              src={new URL('@/assets/tg-logo.svg', import.meta.url).href} 
+              alt="TG Technology" 
+              className="h-16 w-auto mb-4"
+            />
             <p className="text-white/70 leading-relaxed">
               Empowering the next generation with industry-aligned skills and
               real-world training programs.

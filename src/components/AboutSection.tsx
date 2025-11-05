@@ -29,23 +29,22 @@ const AboutSection = () => {
             </p>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+          {/* Our Focus */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             {[
-              { number: "50+", label: "College Partners" },
-              { number: "5000+", label: "Students Trained" },
-              { number: "20+", label: "Expert Trainers" },
-              { number: "95%", label: "Success Rate" },
-            ].map((stat, index) => (
+              { title: "Expert-Led Training", description: "Industry professionals with real-world experience" },
+              { title: "Career-Focused Programs", description: "Practical skills that employers actually need" },
+              { title: "Flexible Learning", description: "Designed to fit college schedules and requirements" },
+            ].map((item, index) => (
               <div
                 key={index}
                 className="text-center p-6 rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 hover:border-accent/40 transition-all animate-slide-up"
                 style={{ animationDelay: `${0.4 + index * 0.1}s` }}
               >
-                <div className="text-3xl sm:text-4xl font-heading font-bold text-gradient mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
+                <h3 className="text-xl font-heading font-bold text-gradient mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground">{item.description}</p>
               </div>
             ))}
           </div>

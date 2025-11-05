@@ -36,9 +36,13 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("home")}
-              className="text-2xl font-heading font-bold text-gradient hover:scale-105 transition-transform"
+              className="hover:scale-105 transition-transform"
             >
-              TG Technology
+              <img 
+                src={new URL('@/assets/tg-logo.svg', import.meta.url).href} 
+                alt="TG Technology" 
+                className="h-12 w-auto"
+              />
             </button>
           </div>
 

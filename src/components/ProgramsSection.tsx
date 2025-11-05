@@ -1,36 +1,51 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code2, Brain, Database, Shield, Cloud, Palette } from "lucide-react";
+import { FileSpreadsheet, Megaphone, BarChart3, PieChart, TrendingUp, LineChart, Code2, Database, Users } from "lucide-react";
 
 const programs = [
   {
-    icon: Code2,
-    title: "Full Stack Development",
-    description: "Master MERN stack, DevOps tools, and modern web development practices for building scalable applications.",
+    icon: FileSpreadsheet,
+    title: "Excel Analytics",
+    description: "Master Excel for data analysis, automation, and business intelligence. Learn advanced formulas, pivot tables, and data visualization techniques that employers value.",
   },
   {
-    icon: Brain,
-    title: "AI & Machine Learning",
-    description: "Learn Python, TensorFlow, and deep learning algorithms to build intelligent systems and AI solutions.",
+    icon: Megaphone,
+    title: "Digital Marketing",
+    description: "Build comprehensive digital marketing skills including SEO, social media strategy, content marketing, and analytics to drive business growth in the digital age.",
+  },
+  {
+    icon: BarChart3,
+    title: "Power BI",
+    description: "Transform raw data into stunning interactive dashboards and reports. Learn to create compelling visualizations that drive data-driven business decisions.",
+  },
+  {
+    icon: PieChart,
+    title: "Tableau",
+    description: "Create powerful data visualizations and interactive dashboards. Master Tableau's intuitive interface to tell compelling stories with your data.",
+  },
+  {
+    icon: TrendingUp,
+    title: "Business Analytics",
+    description: "Develop strategic thinking and analytical skills to solve complex business problems. Learn to leverage data for forecasting, optimization, and informed decision-making.",
+  },
+  {
+    icon: LineChart,
+    title: "Predictive Data Analytics",
+    description: "Unlock the power of predictive modeling and forecasting. Use statistical techniques and machine learning to anticipate trends and make proactive business decisions.",
+  },
+  {
+    icon: Code2,
+    title: "R Programming",
+    description: "Master R for statistical computing and data analysis. Learn to manipulate data, create visualizations, and perform advanced statistical modeling for research and business.",
   },
   {
     icon: Database,
-    title: "Data Science & Analytics",
-    description: "Transform data into insights using Python, R, SQL, and advanced statistical analysis techniques.",
+    title: "SQL",
+    description: "Become proficient in database management and querying. Learn to extract, manipulate, and analyze data efficiently using SQL for real-world business applications.",
   },
   {
-    icon: Shield,
-    title: "Cybersecurity & Ethical Hacking",
-    description: "Protect systems and networks with penetration testing, security auditing, and ethical hacking skills.",
-  },
-  {
-    icon: Cloud,
-    title: "Cloud Computing",
-    description: "Deploy and manage applications on AWS and Azure cloud platforms with industry best practices.",
-  },
-  {
-    icon: Palette,
-    title: "UI/UX & Product Design",
-    description: "Create user-centered designs using Figma, Adobe XD, and modern design thinking methodologies.",
+    icon: Users,
+    title: "Soft Skills & Placement Training",
+    description: "Develop essential communication, teamwork, and professional skills. Get placement-ready with resume building, interview preparation, and career guidance tailored to your success.",
   },
 ];
 
