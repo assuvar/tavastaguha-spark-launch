@@ -20,7 +20,7 @@ const Footer = () => {
             <img 
               src={new URL('@/assets/tg-logo.svg', import.meta.url).href} 
               alt="TG Technology" 
-              className="h-16 w-auto mb-4"
+              className="h-20 sm:h-24 md:h-28 w-auto mb-4"
             />
             <p className="text-white/70 leading-relaxed">
               Empowering the next generation with industry-aligned skills and

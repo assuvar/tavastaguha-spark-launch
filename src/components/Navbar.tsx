@@ -41,7 +41,7 @@ const Navbar = () => {
               <img 
                 src={new URL('@/assets/tg-logo.svg', import.meta.url).href} 
                 alt="TG Technology" 
-                className="h-12 w-auto"
+                className="h-14 sm:h-16 md:h-20 w-auto"
               />
             </button>
           </div>
