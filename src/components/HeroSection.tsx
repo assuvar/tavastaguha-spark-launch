@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden bg-secondary"
+      className="relative min-h-screen flex items-center overflow-hidden bg-secondary pt-24 sm:pt-28 md:pt-32"
     >
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-secondary via-secondary to-tech-mesh"></div>
@@ -28,7 +28,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="animate-slide-up">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 leading-tight">
               Engineering{" "}
               <span className="text-gradient neon-glow">Future Skills</span>{" "}
               for the Next Generation
