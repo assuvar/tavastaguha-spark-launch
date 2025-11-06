@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
 
 const Footer = () => {
   const scrollToSection = (id: string) => {
@@ -67,39 +67,29 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Links */}
+          {/* Contact Info */}
           <div>
-            <h4 className="font-heading font-semibold mb-4">Connect With Us</h4>
-            <div className="flex space-x-4">
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-accent flex items-center justify-center transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-accent flex items-center justify-center transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-accent flex items-center justify-center transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-accent flex items-center justify-center transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-            </div>
+            <h4 className="font-heading font-semibold mb-4">Contact Info</h4>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-3">
+                <Phone className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <a href="tel:+919108918437" className="text-white/70 hover:text-accent transition-colors">
+                  +91 91089 18437
+                </a>
+              </li>
+              <li className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span className="text-white/70">
+                  No 57, VV Layout, Malathahalli, Bangalore – 560056
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Mail className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <a href="mailto:contact@tgtechnology.com" className="text-white/70 hover:text-accent transition-colors">
+                  contact@tgtechnology.com
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
